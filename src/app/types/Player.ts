@@ -1,6 +1,15 @@
+import { InjuryStatus } from './InjuryStatus';
+import { PlayerStats } from './PlayerStats';
+
 export interface Player {
   id: number;
   name: string;
   team: string;
-  points: number;
+  position: string;
+  teamColor: string;
+  photoUrl?: string;
+  seasonStats: PlayerStats;
+  weekStats: PlayerStats;
+  isProjectedToScore: boolean;
+  injuryStatus?: InjuryStatus;
 }

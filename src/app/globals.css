@@ -1,44 +1,53 @@
 @import 'tailwindcss';
 
+@layer utilities {
+  .fantasy-gradient {
+    background: linear-gradient(
+      135deg,
+      hsl(var(--fantasy-gradient-start)),
+      hsl(var(--fantasy-gradient-end))
+    );
+  }
+
+  .fantasy-glass {
+    background: hsl(var(--fantasy-glass));
+    backdrop-filter: blur(10px);
+    border: 1px solid hsl(var(--border));
+  }
+
+  .fantasy-success {
+    color: hsl(var(--fantasy-success));
+  }
+
+  .fantasy-warning {
+    color: hsl(var(--fantasy-warning));
+  }
+
+  .fantasy-danger {
+    color: hsl(var(--fantasy-danger));
+  }
+
+  .fantasy-info {
+    color: hsl(var(--fantasy-info));
+  }
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --fantasy-success: 142 76% 36%;
+  --fantasy-warning: 48 96% 53%;
+  --fantasy-danger: 0 84% 60%;
+  --fantasy-info: 200 98% 39%;
+  --fantasy-gradient-start: 240 10% 3.9%;
+  --fantasy-gradient-end: 240 5.9% 10%;
+  --fantasy-glass: 240 10% 3.9% / 0.8;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+:root.light {
+  --fantasy-success: 142 76% 36%;
+  --fantasy-warning: 48 96% 53%;
+  --fantasy-danger: 0 84% 60%;
+  --fantasy-info: 200 98% 39%;
+  --fantasy-gradient-start: 0 0% 100%;
+  --fantasy-gradient-end: 240 4.8% 95.9%;
+  --fantasy-glass: 0 0% 100% / 0.8;
 }

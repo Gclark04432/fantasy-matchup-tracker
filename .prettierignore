@@ -5,6 +5,4 @@
  .prettierignore
  .stylelintignore
  .eslintignore
- stories
- storybook-static
  test-results
