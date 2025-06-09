@@ -3,7 +3,11 @@ import { Button } from '@/app/components/ui/Button';
 import { Input } from '@/app/components/ui/Input';
 import { useState } from 'react';
 
-export const AuthLandingPage = () => {
+interface AuthLandingPageProps {
+  handleLogIn: () => void;
+}
+
+export const AuthLandingPage = ({ handleLogIn }: AuthLandingPageProps) => {
   const [mode, setMode] = useState<'login' | 'signup'>('login');
 
   return (
@@ -50,7 +54,10 @@ export const AuthLandingPage = () => {
             placeholder='Password'
             className='w-full bg-white/30 text-white placeholder-white'
           />
-          <Button className='w-full bg-white text-purple-700 transition hover:cursor-pointer hover:bg-purple-500/70 hover:text-white'>
+          <Button
+            className='w-full bg-white text-purple-700 transition hover:cursor-pointer hover:bg-purple-500/70 hover:text-white'
+            onClick={handleLogIn}
+          >
             {mode === 'login' ? 'Log In' : 'Sign Up'}
           </Button>
         </form>

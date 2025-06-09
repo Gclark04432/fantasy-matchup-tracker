@@ -5,7 +5,7 @@ import { AnimatePresence } from 'framer-motion';
 import { Input } from '@/app/components/ui/Input';
 import { Button } from '@/app/components/ui/Button';
 import { Switch } from '@/app/components/ui/Switch';
-import { PlayerCard } from '@/app/components/ui/PlayerCard/PlayerCard';
+import { PlayerCard } from '@/app/components/ui/PlayerCard';
 import { Player } from '@/app/types/Player';
 import { mockSearch } from '@/app/lib/mockSearch';
 import { Loader2 } from 'lucide-react';
@@ -46,7 +46,7 @@ export default function FantasyMatchupTracker() {
   };
 
   return !loggedIn ? (
-    <AuthLandingPage />
+    <AuthLandingPage handleLogIn={() => setLoggedIn(true)} />
   ) : (
     <div
       className={`min-h-screen px-4 py-10 transition-colors duration-500 sm:px-8 ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}
@@ -66,7 +66,7 @@ export default function FantasyMatchupTracker() {
 
       {/* Main Content */}
       <main className='mx-auto max-w-6xl space-y-10'>
-        <div className='flex flex-col gap-4 sm:flex-row'>
+        {/* <div className='flex flex-col gap-4 sm:flex-row'>
           <Input
             placeholder='Enter player name'
             value={query}
@@ -84,7 +84,7 @@ export default function FantasyMatchupTracker() {
               'Track Player'
             )}
           </Button>
-        </div>
+        </div> */}
 
         <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
           <AnimatePresence>
