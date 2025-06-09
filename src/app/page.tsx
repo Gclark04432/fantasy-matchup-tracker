@@ -5,7 +5,7 @@ import { AnimatePresence } from 'framer-motion';
 import { Input } from '@/app/components/ui/Input';
 import { Button } from '@/app/components/ui/Button';
 import { Switch } from '@/app/components/ui/Switch';
-import { PlayerCard } from '@/app/components/ui/PlayerCard';
+import { PlayerCard } from '@/app/components/ui/PlayerCard/PlayerCard';
 import { Player } from '@/app/types/Player';
 import { mockSearch } from '@/app/lib/mockSearch';
 import { Loader2 } from 'lucide-react';
@@ -20,12 +20,27 @@ export default function FantasyMatchupTracker() {
   const handleSearch = async (): Promise<void> => {
     if (!query) return;
     setLoading(true);
-    setTimeout(() => {
-      const player = mockSearch(query);
-      setPlayers((prev) => [...prev, player]);
-      setQuery('');
-      setLoading(false);
-    }, 500); // simulate fetch delay
+    try {
+      await fetch('/api', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          id: players[0].id,
+          name: players[0].name,
+          team: players[0].team,
+        }),
+      });
+    } catch (e) {
+      console.log(e);
+    }
+    // setTimeout(() => {
+    //   const player = mockSearch(query);
+    //   setPlayers((prev) => [...prev, player]);
+    //   setQuery('');
+    //   setLoading(false);
+    // }, 500); // simulate fetch delay
   };
 
   return (
@@ -75,11 +90,6 @@ export default function FantasyMatchupTracker() {
           </AnimatePresence>
         </div>
       </main>
-
-      {/* Footer */}
-      <footer className='mx-auto mt-16 max-w-6xl text-center text-sm opacity-70'>
-        <p>Built with React, TypeScript, TailwindCSS, and 💡</p>
-      </footer>
     </div>
   );
 }

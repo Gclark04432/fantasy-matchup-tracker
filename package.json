@@ -11,6 +11,7 @@
     "build:local": "prettier --write . && next build"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.50.0",
     "@tailwindcss/postcss": "^4.0.15",
     "autoprefixer": "^10.4.21",
     "framer-motion": "^12.16.0",
