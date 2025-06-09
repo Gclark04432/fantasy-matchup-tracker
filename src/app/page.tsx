@@ -10,12 +10,14 @@ import { Player } from '@/app/types/Player';
 import { mockSearch } from '@/app/lib/mockSearch';
 import { Loader2 } from 'lucide-react';
 import { samplePlayers } from './data/ExamplePlayers';
+import { AuthLandingPage } from './components/ui/LoginPage';
 
 export default function FantasyMatchupTracker() {
   const [players, setPlayers] = useState<Player[]>(samplePlayers);
   const [query, setQuery] = useState<string>('');
   const [darkMode, setDarkMode] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(false);
+  const [loggedIn, setLoggedIn] = useState<boolean>(false);
 
   const handleSearch = async (): Promise<void> => {
     if (!query) return;
@@ -43,7 +45,9 @@ export default function FantasyMatchupTracker() {
     // }, 500); // simulate fetch delay
   };
 
-  return (
+  return !loggedIn ? (
+    <AuthLandingPage />
+  ) : (
     <div
       className={`min-h-screen px-4 py-10 transition-colors duration-500 sm:px-8 ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}
     >
