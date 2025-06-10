@@ -1,7 +1,7 @@
 'use client';
 
 import { BarChart3, Calendar } from 'lucide-react';
-import { Button } from '../Button';
+import { Button } from '../../Button';
 
 interface StatPeriodSelectorProps {
   selected: boolean;
@@ -14,7 +14,6 @@ export const StatPeriodSelector = ({
   period,
   handleButtonClick,
 }: StatPeriodSelectorProps) => {
-  console.log({ selected });
   const selectableClassNames =
     'hover:cursor-pointer hover:scale-105 bg-transparent hover:bg-white/10';
 

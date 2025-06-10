@@ -25,6 +25,7 @@ export const samplePlayers = [
     },
     isProjectedToScore: true,
     injuryStatus: InjuryStatus.DOUBTFUL,
+    photoUrl: '/JoshAllen.png',
   },
   {
     id: 2,
@@ -50,6 +51,7 @@ export const samplePlayers = [
     },
     isProjectedToScore: true,
     injuryStatus: InjuryStatus.HEALTHY,
+    photoUrl: '/CMC.png',
   },
   {
     id: 3,
@@ -73,6 +75,7 @@ export const samplePlayers = [
     },
     isProjectedToScore: false,
     injuryStatus: InjuryStatus.OUT,
+    photoUrl: '/TyreekHill.png',
   },
   {
     id: 4,
@@ -96,5 +99,6 @@ export const samplePlayers = [
     },
     isProjectedToScore: true,
     injuryStatus: InjuryStatus.QUESTIONABLE,
+    photoUrl: '/TravisKelce.png',
   },
 ];

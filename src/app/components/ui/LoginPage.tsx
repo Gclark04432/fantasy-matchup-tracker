@@ -11,7 +11,7 @@ export const AuthLandingPage = ({ handleLogIn }: AuthLandingPageProps) => {
   const [mode, setMode] = useState<'login' | 'signup'>('login');
 
   return (
-    <div className='relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-purple-600 to-indigo-800 p-4 text-white'>
+    <div className='relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-indigo-900 to-blue-800 p-4 text-white'>
       {/* Animated background bubbles */}
       <div className='absolute inset-0 overflow-hidden'>
         <div className='animate-blob absolute top-0 left-0 h-72 w-72 rounded-full border-8 border-white bg-purple-400 blur-3xl filter' />
@@ -55,7 +55,7 @@ export const AuthLandingPage = ({ handleLogIn }: AuthLandingPageProps) => {
             className='w-full bg-white/30 text-white placeholder-white'
           />
           <Button
-            className='w-full bg-white text-purple-700 transition hover:cursor-pointer hover:bg-purple-500/70 hover:text-white'
+            className='w-full bg-white py-2 text-purple-700 transition hover:cursor-pointer hover:bg-purple-500/70 hover:text-white'
             onClick={handleLogIn}
           >
             {mode === 'login' ? 'Log In' : 'Sign Up'}
