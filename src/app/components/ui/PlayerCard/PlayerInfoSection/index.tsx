@@ -45,7 +45,7 @@ export const PlayerInfoSection = ({ player }: PlayerInfoSectionProps) => {
             >
               {player.position}
             </div>
-            <span className='text-muted-foreground rounded-md bg-zinc-950/50 px-2 py-1 text-sm font-medium'>
+            <span className='rounded-md bg-zinc-950/50 px-2 py-1 text-sm font-medium text-gray-500'>
               {player.team}
             </span>
           </div>

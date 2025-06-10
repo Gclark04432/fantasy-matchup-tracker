@@ -13,10 +13,10 @@ export const ScoreChangeIndicator = ({
     pointsChange !== null && (
       <div
         className={`animate-fade-in absolute -top-2 -right-2 z-20 transform ${
-          pointsChange > 0 ? 'fantasy-success' : 'fantasy-danger'
+          pointsChange > 0 ? 'text-green-500' : 'text-red-500'
         }`}
       >
-        <div className='fantasy-glass/100 mt-1 flex items-center justify-center rounded-2xl border-current px-3 shadow-lg backdrop-blur-md'>
+        <div className='mt-1 flex items-center justify-center rounded-2xl border border-gray-500/30 px-3 shadow-lg backdrop-blur-md'>
           <Zap className='mr-1 h-3 w-3' />
           {pointsChange > 0 ? '+' : ''}
           {pointsChange.toFixed(1)}

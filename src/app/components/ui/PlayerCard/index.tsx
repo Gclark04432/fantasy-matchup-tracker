@@ -1,12 +1,9 @@
-import { getInjuryStatusColor } from '@/app/lib/getInjuryStatusColor';
-import { getPositionColor } from '@/app/lib/getPositionColor';
 import { Player } from '@/app/types/Player';
-import { Star, TrendingUp, TrendingDown } from 'lucide-react';
-import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { StatPeriodSelection } from './StatPeriodSelection';
 import { ScoreChangeIndicator } from './ScoreChangeIndicator';
 import { PlayerInfoSection } from './PlayerInfoSection';
+import { StatSection } from './StatsSection';
 
 interface PlayerCardProps {
   player: Player;
@@ -45,9 +42,8 @@ export function PlayerCard({ player, darkMode }: PlayerCardProps) {
 
   return (
     <div
-      className={`fantasy-glass hover:shadow-3xl group relative cursor-pointer overflow-hidden border-0 shadow-2xl transition-all duration-500 hover:scale-[1.03] ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}
+      className={`hover:shadow-3xl group relative cursor-pointer overflow-hidden border border-gray-500/30 bg-gray-500 shadow-2xl backdrop-blur-sm transition-all duration-500 hover:scale-[1.03] ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}
     >
-      {/* Enhanced Team Color Accent with Glow */}
       <div
         className='absolute top-0 right-0 left-0 h-2 opacity-90 shadow-lg'
         style={{
@@ -64,7 +60,7 @@ export function PlayerCard({ player, darkMode }: PlayerCardProps) {
         }}
       />
 
-      <div className='fantasy-gradient absolute inset-0 opacity-60 transition-opacity duration-500 group-hover:opacity-80' />
+      <div className='to-gray-100) absolute inset-0 bg-linear-to-b from-gray-800 opacity-60 transition-opacity duration-500 group-hover:opacity-80' />
 
       <ScoreChangeIndicator pointsChange={pointsChange} />
 
@@ -78,47 +74,100 @@ export function PlayerCard({ player, darkMode }: PlayerCardProps) {
           currentStatPeriod={showWeekStats ? 'This Week' : 'Season'}
         />
 
-        {/* Enhanced Stats Grid */}
-        <div className='grid grid-cols-2 gap-4'>
-          {/* Enhanced Points Display */}
-          <div className='rounded-xl bg-gradient-to-br from-zinc-800/60 to-zinc-950/30 p-4 text-center shadow-lg backdrop-blur-sm transition-all duration-300 hover:shadow-xl'>
-            <div
-              className={`text-foreground mb-1 flex items-center justify-center gap-2 text-3xl font-bold transition-all duration-300 ${
-                pointsChange !== null ? 'animate-scale-in' : ''
-              }`}
-            >
-              {currentStats.points.toFixed(1)}
-              {isPositive ? (
-                <TrendingUp className='fantasy-success h-5 w-5' />
-              ) : (
-                <TrendingDown className='fantasy-danger h-5 w-5' />
-              )}
-            </div>
-            <div className='text-muted-foreground text-xs font-medium tracking-wide text-stone-500 uppercase'>
-              Fantasy Points
-            </div>
-          </div>
-
-          {/* Enhanced Projection */}
-          <div className='rounded-xl border border-sky-500/20 bg-gradient-to-br from-sky-500/20 to-sky-500/5 p-4 text-center shadow-lg backdrop-blur-sm transition-all duration-300 hover:shadow-xl'>
-            <div className='mb-1 text-3xl font-bold text-sky-500'>
-              {currentStats.projection.toFixed(1)}
-            </div>
-            <div className='text-muted-foreground text-xs font-medium tracking-wide text-stone-500 uppercase'>
-              Projected
-            </div>
-          </div>
-        </div>
+        <StatSection
+          currentStats={currentStats}
+          pointsChange={pointsChange}
+          isPositive={isPositive}
+        />
 
         {/* Enhanced Detailed Stats */}
         <div className='space-y-3'>
-          <div className='text-muted-foreground flex items-center gap-2 text-sm font-semibold'>
+          <div className='flex items-center gap-2 text-sm font-semibold text-gray-500'>
             <div className='h-2 w-2 rounded-full bg-sky-500'></div>
             {showWeekStats ? 'Week Stats' : 'Season Stats'}
           </div>
 
-          <div className='border-border/30 grid grid-cols-2 gap-3 rounded-lg border bg-zinc-950/20 p-4 text-sm backdrop-blur-sm'>
-            {/* ... keep existing code (position-specific stats rendering) */}
+          <div className='grid grid-cols-2 gap-3 rounded-lg border border-gray-800/30 bg-zinc-800/20 p-4 text-sm backdrop-blur-sm'>
+            {player.position === 'QB' && (
+              <>
+                <div className='flex justify-between'>
+                  <span className='text-gray-500'>Pass Yds</span>
+                  <span className='font-medium'>
+                    {currentStats.passingYards?.toLocaleString() || 0}
+                  </span>
+                </div>
+                <div className='flex justify-between'>
+                  <span className='text-gray-500'>Pass TDs</span>
+                  <span className='font-medium'>{currentStats.touchdowns}</span>
+                </div>
+                <div className='flex justify-between'>
+                  <span className='text-gray-500'>INTs</span>
+                  <span className='font-medium'>
+                    {currentStats.interceptions || 0}
+                  </span>
+                </div>
+                <div className='flex justify-between'>
+                  <span className='text-gray-500'>Rush Yds</span>
+                  <span className='font-medium'>
+                    {currentStats.rushingYards || 0}
+                  </span>
+                </div>
+              </>
+            )}
+
+            {player.position === 'RB' && (
+              <>
+                <div className='flex justify-between'>
+                  <span className='text-gray-500'>Rush Yds</span>
+                  <span className='font-medium'>
+                    {currentStats.rushingYards?.toLocaleString() || 0}
+                  </span>
+                </div>
+                <div className='flex justify-between'>
+                  <span className='text-gray-500'>Rush TDs</span>
+                  <span className='font-medium'>{currentStats.touchdowns}</span>
+                </div>
+                <div className='flex justify-between'>
+                  <span className='text-gray-500'>Rec Yds</span>
+                  <span className='font-medium'>
+                    {currentStats.receivingYards || 0}
+                  </span>
+                </div>
+                <div className='flex justify-between'>
+                  <span className='text-gray-500'>Receptions</span>
+                  <span className='font-medium'>
+                    {currentStats.receptions || 0}
+                  </span>
+                </div>
+              </>
+            )}
+
+            {(player.position === 'WR' || player.position === 'TE') && (
+              <>
+                <div className='flex justify-between'>
+                  <span className='text-gray-500'>Rec Yds</span>
+                  <span className='font-medium'>
+                    {currentStats.receivingYards?.toLocaleString() || 0}
+                  </span>
+                </div>
+                <div className='flex justify-between'>
+                  <span className='text-gray-500'>Receptions</span>
+                  <span className='font-medium'>
+                    {currentStats.receptions || 0}
+                  </span>
+                </div>
+                <div className='flex justify-between'>
+                  <span className='text-gray-500'>Rec TDs</span>
+                  <span className='font-medium'>{currentStats.touchdowns}</span>
+                </div>
+                <div className='flex justify-between'>
+                  <span className='text-gray-500'>Targets</span>
+                  <span className='font-medium'>
+                    {Math.round((currentStats.receptions || 0) * 1.4)}
+                  </span>
+                </div>
+              </>
+            )}
           </div>
         </div>
       </div>

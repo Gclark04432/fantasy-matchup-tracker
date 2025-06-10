@@ -3,14 +3,14 @@ import { InjuryStatus } from '../types/InjuryStatus';
 export const getInjuryStatusColor = (status?: InjuryStatus) => {
   switch (status) {
     case InjuryStatus.HEALTHY:
-      return 'fantasy-success';
+      return 'text-green-400';
     case InjuryStatus.QUESTIONABLE:
-      return 'fantasy-warning';
+      return 'text-yellow-300';
     case InjuryStatus.DOUBTFUL:
-      return 'fantasy-warning';
+      return 'text-yellow-300';
     case InjuryStatus.OUT:
-      return 'fantasy-danger';
+      return 'text-red-500';
     default:
-      return 'fantasy-success';
+      return 'text-green-400';
   }
 };
