@@ -37,7 +37,10 @@ export const PlayerInfoSection = ({ player }: PlayerInfoSectionProps) => {
         {/* Enhanced Player Info */}
         <div className='space-y-2'>
           <h3 className='text-foreground text-xl leading-tight font-bold transition-all duration-300 group-hover:text-sky-500'>
-            {player.name}
+            {player.firstname}
+          </h3>
+          <h3 className='text-foreground text-xl leading-tight font-bold transition-all duration-300 group-hover:text-sky-500'>
+            {player.surname}
           </h3>
           <div className='flex items-center gap-3'>
             <div
@@ -54,7 +57,7 @@ export const PlayerInfoSection = ({ player }: PlayerInfoSectionProps) => {
 
       {/* Enhanced Injury Status */}
       <div
-        className={`${getInjuryStatusColor(player.injuryStatus)} font-semibold shadow-sm`}
+        className={`${getInjuryStatusColor(player.injuryStatus)} absolute inset-0 h-2 px-1 text-sm font-semibold uppercase shadow-sm`}
       >
         {player.injuryStatus || 'Healthy'}
       </div>

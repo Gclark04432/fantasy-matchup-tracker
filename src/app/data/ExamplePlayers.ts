@@ -3,7 +3,8 @@ import { InjuryStatus } from '../types/InjuryStatus';
 export const samplePlayers = [
   {
     id: 1,
-    name: 'Josh Allen',
+    firstname: 'Josh',
+    surname: 'Allen',
     position: 'QB',
     team: 'BUF',
     teamColor: '#00338D',
@@ -29,7 +30,8 @@ export const samplePlayers = [
   },
   {
     id: 2,
-    name: 'Christian McCaffrey',
+    firstname: 'Christian',
+    surname: 'McCaffrey',
     position: 'RB',
     team: 'SF',
     teamColor: '#AA0000',
@@ -55,7 +57,8 @@ export const samplePlayers = [
   },
   {
     id: 3,
-    name: 'Tyreek Hill',
+    firstname: 'Tyreek',
+    surname: 'Hill',
     position: 'WR',
     team: 'MIA',
     teamColor: '#008E97',
@@ -79,7 +82,8 @@ export const samplePlayers = [
   },
   {
     id: 4,
-    name: 'Travis Kelce',
+    firstname: 'Travis',
+    surname: 'Kelce',
     position: 'TE',
     team: 'KC',
     teamColor: '#E31837',

@@ -3,7 +3,8 @@ import { PlayerStats } from './PlayerStats';
 
 export interface Player {
   id: number;
-  name: string;
+  firstname: string;
+  surname: string;
   team: string;
   position: string;
   teamColor: string;
