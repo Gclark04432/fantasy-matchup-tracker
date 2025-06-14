@@ -12,9 +12,10 @@ export default function AuthLandingPage() {
   const [password, setPassword] = useState<string>('');
   const [buttonEnabled, setButtonEnabled] = useState<boolean>(false);
 
-  const handleSignUpClick = async () => {
+  const handleAuthCTAClick = async (e: any) => {
+    e.preventDefault();
     try {
-      await fetch('/auth/api', {
+      const res = await fetch('/auth/api', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -22,8 +23,10 @@ export default function AuthLandingPage() {
         body: JSON.stringify({
           email: email,
           password: password,
+          mode: mode,
         }),
       });
+      console.log(res);
     } catch (e) {
       console.log(e);
     }
@@ -77,7 +80,7 @@ export default function AuthLandingPage() {
           />
           <Button
             className='w-full bg-white py-2 text-sky-500 transition hover:cursor-pointer hover:bg-sky-500/70 hover:text-white'
-            onClick={handleSignUpClick}
+            onClick={handleAuthCTAClick}
             disabled={!buttonEnabled}
           >
             {mode}
