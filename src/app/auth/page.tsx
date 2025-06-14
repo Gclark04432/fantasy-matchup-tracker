@@ -1,14 +1,41 @@
+'use client';
+
 import { motion } from 'framer-motion';
 import { Button } from '@/app/components/ui/Button';
 import { Input } from '@/app/components/ui/Input';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { Auth } from '../types/Auth';
 
-interface AuthLandingPageProps {
-  handleLogIn: () => void;
-}
+export default function AuthLandingPage() {
+  const [mode, setMode] = useState<Auth>(Auth.LOGIN);
+  const [email, setEmail] = useState<string>('');
+  const [password, setPassword] = useState<string>('');
+  const [buttonEnabled, setButtonEnabled] = useState<boolean>(false);
 
-export const AuthLandingPage = ({ handleLogIn }: AuthLandingPageProps) => {
-  const [mode, setMode] = useState<'login' | 'signup'>('login');
+  const handleSignUpClick = async () => {
+    try {
+      await fetch('/auth/api', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: email,
+          password: password,
+        }),
+      });
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  useEffect(() => {
+    if (email.length > 2 && password.length > 2) {
+      setButtonEnabled(true);
+    } else {
+      setButtonEnabled(false);
+    }
+  }, [email, password]);
 
   return (
     <div className='relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-sky-500 via-blue-400 to-gray-800 p-4 text-white'>
@@ -33,47 +60,44 @@ export const AuthLandingPage = ({ handleLogIn }: AuthLandingPageProps) => {
           winning lineups.
         </p>
 
-        <h2 className='mb-6 text-center text-2xl font-bold'>
-          {mode === 'login' ? 'Welcome Back!' : 'Create Your Account'}
-        </h2>
-
         <form className='space-y-4'>
-          {mode === 'signup' && (
-            <Input
-              placeholder='Full Name'
-              className='w-full bg-white/30 text-white placeholder-white'
-            />
-          )}
           <Input
             type='email'
             placeholder='Email'
             className='w-full bg-white/30 text-white placeholder-white'
+            onChange={(e) => setEmail(e.target.value)}
+            value={email}
           />
           <Input
             type='password'
             placeholder='Password'
             className='w-full bg-white/30 text-white placeholder-white'
+            onChange={(e) => setPassword(e.target.value)}
+            value={password}
           />
           <Button
             className='w-full bg-white py-2 text-sky-500 transition hover:cursor-pointer hover:bg-sky-500/70 hover:text-white'
-            onClick={handleLogIn}
+            onClick={handleSignUpClick}
+            disabled={!buttonEnabled}
           >
-            {mode === 'login' ? 'Log In' : 'Sign Up'}
+            {mode}
           </Button>
         </form>
 
         <p className='mt-4 text-center'>
-          {mode === 'login'
+          {mode === Auth.LOGIN
             ? "Don't have an account?"
             : 'Already have an account?'}{' '}
           <button
-            className='text-white underline hover:cursor-pointer hover:text-purple-200'
-            onClick={() => setMode(mode === 'login' ? 'signup' : 'login')}
+            className='text-white underline hover:cursor-pointer hover:text-sky-400'
+            onClick={() =>
+              setMode(mode === Auth.LOGIN ? Auth.SIGNUP : Auth.LOGIN)
+            }
           >
-            {mode === 'login' ? 'Sign Up' : 'Log In'}
+            {mode === Auth.LOGIN ? Auth.SIGNUP : Auth.LOGIN}
           </button>
         </p>
       </motion.div>
     </div>
   );
-};
+}
