@@ -19,35 +19,33 @@ export default function FantasyMatchupTracker() {
   const [loading, setLoading] = useState<boolean>(false);
   const [loggedIn, setLoggedIn] = useState<boolean>(false);
 
-  const handleSearch = async (): Promise<void> => {
-    if (!query) return;
-    setLoading(true);
-    try {
-      await fetch('/api', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          id: players[0].id,
-          name: players[0].name,
-          team: players[0].team,
-        }),
-      });
-    } catch (e) {
-      console.log(e);
-    }
-    // setTimeout(() => {
-    //   const player = mockSearch(query);
-    //   setPlayers((prev) => [...prev, player]);
-    //   setQuery('');
-    //   setLoading(false);
-    // }, 500); // simulate fetch delay
-  };
+  // const handleSearch = async (): Promise<void> => {
+  //   if (!query) return;
+  //   setLoading(true);
+  //   try {
+  //     await fetch('/api', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json',
+  //       },
+  //       body: JSON.stringify({
+  //         id: players[0].id,
+  //         name: players[0].name,
+  //         team: players[0].team,
+  //       }),
+  //     });
+  //   } catch (e) {
+  //     console.log(e);
+  //   }
+  // setTimeout(() => {
+  //   const player = mockSearch(query);
+  //   setPlayers((prev) => [...prev, player]);
+  //   setQuery('');
+  //   setLoading(false);
+  // }, 500); // simulate fetch delay
+  // };
 
-  return !loggedIn ? (
-    <AuthLandingPage handleLogIn={() => setLoggedIn(true)} />
-  ) : (
+  return (
     <div
       className={`min-h-screen px-4 py-10 transition-colors duration-500 sm:px-8 ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}
     >

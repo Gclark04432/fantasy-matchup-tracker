@@ -1,5 +1,5 @@
 // POST player only
-import { supabase } from '../lib/supabaseClient';
+import { supabase } from '../lib/supabase/client';
 
 export async function POST(request: Request) {
   if (request.method !== 'POST') {

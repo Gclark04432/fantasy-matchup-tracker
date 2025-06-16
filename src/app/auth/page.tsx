@@ -5,6 +5,7 @@ import { Button } from '@/app/components/ui/Button';
 import { Input } from '@/app/components/ui/Input';
 import { useEffect, useState } from 'react';
 import { Auth } from '../types/Auth';
+import { login, signup } from './actions';
 
 export default function AuthLandingPage() {
   const [mode, setMode] = useState<Auth>(Auth.LOGIN);
@@ -14,22 +15,8 @@ export default function AuthLandingPage() {
 
   const handleAuthCTAClick = async (e: any) => {
     e.preventDefault();
-    try {
-      const res = await fetch('/auth/api', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          email: email,
-          password: password,
-          mode: mode,
-        }),
-      });
-      console.log(res);
-    } catch (e) {
-      console.log(e);
-    }
+    if (mode === Auth.SIGNUP) signup(email, password);
+    else login(email, password);
   };
 
   useEffect(() => {
