@@ -15,12 +15,12 @@ export const StatPeriodSelector = ({
   handleButtonClick,
 }: StatPeriodSelectorProps) => {
   const selectableClassNames =
-    'hover:cursor-pointer hover:scale-105 bg-transparent hover:bg-white/10';
+    'hover:cursor-pointer hover:scale-105 bg-transparent hover:bg-sky-500';
 
   return (
     <Button
       onClick={handleButtonClick}
-      className={`flex flex-1 items-center justify-center border border-white p-2 transition-all duration-300 ${!selected && selectableClassNames}`}
+      className={`flex flex-1 items-center justify-center border border-white p-2 transition-all duration-300 ${!selected && selectableClassNames} ${selected && 'text-white'}`}
       disabled={selected}
     >
       {period === 'Season' ? (

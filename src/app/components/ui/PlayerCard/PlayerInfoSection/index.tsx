@@ -8,9 +8,13 @@ import { PlayerPhoto } from './PlayerPhoto';
 
 interface PlayerInfoSectionProps {
   player: Player;
+  darkMode: boolean;
 }
 
-export const PlayerInfoSection = ({ player }: PlayerInfoSectionProps) => {
+export const PlayerInfoSection = ({
+  player,
+  darkMode,
+}: PlayerInfoSectionProps) => {
   return (
     <div className='flex items-start justify-between'>
       <div className='flex items-center gap-4'>
@@ -48,7 +52,11 @@ export const PlayerInfoSection = ({ player }: PlayerInfoSectionProps) => {
             >
               {player.position}
             </div>
-            <span className='rounded-md bg-zinc-950/50 px-2 py-1 text-sm font-medium text-gray-500'>
+            <span
+              className={`rounded-md bg-zinc-950/50 px-2 py-1 text-sm font-medium ${
+                darkMode ? 'text-gray-500' : 'text-gray-300'
+              }`}
+            >
               {player.team}
             </span>
           </div>

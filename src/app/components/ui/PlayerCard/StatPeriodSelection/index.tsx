@@ -10,7 +10,6 @@ export const StatPeriodSelection = ({
   currentStatPeriod,
   handleStatPeriodSelectionChange,
 }: StatPeriodSelectionProps) => {
-  console.log({ currentStatPeriod });
   return (
     <div className='flex gap-2'>
       <StatPeriodSelector

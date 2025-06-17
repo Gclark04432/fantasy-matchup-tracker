@@ -28,7 +28,7 @@ export const Actual = ({
           <TrendingDown className='h-5 w-5 text-red-500' />
         )}
       </div>
-      <div className='text-xs font-medium tracking-wide text-gray-500 text-stone-500 uppercase'>
+      <div className='text-xs font-medium tracking-wide text-gray-500 uppercase'>
         Fantasy Points
       </div>
     </div>

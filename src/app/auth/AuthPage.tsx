@@ -9,7 +9,6 @@ export default function AuthPage() {
   const [mode, setMode] = useState<'login' | 'signup'>('login');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [fullName, setFullName] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -39,15 +38,10 @@ export default function AuthPage() {
   return (
     <div className='flex min-h-screen flex-col bg-gradient-to-br from-sky-500 via-blue-400 to-gray-800 md:flex-row'>
       {/* Left Panel */}
-      <div className='relative hidden flex-col items-center justify-center overflow-hidden p-12 md:flex md:w-1/2'>
-        <div className='absolute inset-0 z-0'>
-          <div className='animate-blob absolute top-0 left-0 h-72 w-72 rounded-full border-8 border-white bg-purple-400 blur-3xl filter' />
-          <div className='animate-blob absolute right-10 bottom-10 h-96 w-96 rounded-full bg-indigo-500 blur-2xl filter' />
-          <div className='animate-float absolute top-1/2 left-1/3 h-40 w-40 rounded-full bg-amber-400 blur-2xl filter' />
-        </div>
+      <div className='relative flex-col items-center justify-center overflow-hidden p-12 md:flex md:w-1/2'>
         <div className='z-10 flex flex-col items-center'>
           <Image
-            src='/globe.svg'
+            src='/favicon.svg'
             alt='Fantasy Logo'
             width={80}
             height={80}
@@ -78,13 +72,13 @@ export default function AuthPage() {
           {/* Tabs */}
           <div className='mb-8 flex justify-center'>
             <button
-              className={`rounded-full px-6 py-2 text-lg font-bold transition-all duration-200 ${mode === 'login' ? 'bg-sky-500 text-white shadow' : 'border border-sky-500 bg-white text-sky-500'}`}
+              className={`rounded-full px-6 py-2 text-lg font-bold transition-all duration-200 ${mode === 'login' ? 'bg-sky-500 text-white shadow' : 'border border-sky-500 bg-white text-sky-500'} hover:scale-105 hover:cursor-pointer`}
               onClick={() => setMode('login')}
             >
               Login
             </button>
             <button
-              className={`ml-2 rounded-full px-6 py-2 text-lg font-bold transition-all duration-200 ${mode === 'signup' ? 'bg-sky-500 text-white shadow' : 'border border-sky-500 bg-white text-sky-500'}`}
+              className={`ml-2 rounded-full px-6 py-2 text-lg font-bold transition-all duration-200 ${mode === 'signup' ? 'bg-sky-500 text-white shadow' : 'border border-sky-500 bg-white text-sky-500'} hover:scale-105 hover:cursor-pointer`}
               onClick={() => setMode('signup')}
             >
               Sign Up
@@ -92,16 +86,6 @@ export default function AuthPage() {
           </div>
           {/* Form */}
           <form className='space-y-4' onSubmit={handleSubmit}>
-            {mode === 'signup' && (
-              <Input
-                type='text'
-                placeholder='Full Name'
-                className='w-full bg-white/70 text-sky-900 placeholder-sky-400'
-                value={fullName}
-                onChange={(e) => setFullName(e.target.value)}
-                required
-              />
-            )}
             <Input
               type='email'
               placeholder='Email Address'
