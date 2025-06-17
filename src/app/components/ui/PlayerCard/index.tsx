@@ -67,7 +67,7 @@ export function PlayerCard({ player, darkMode }: PlayerCardProps) {
         }}
       />
 
-      <ScoreChangeIndicator pointsChange={pointsChange} />
+      <ScoreChangeIndicator pointsChange={pointsChange} darkMode={darkMode} />
 
       <div className='relative space-y-4 p-5'>
         <PlayerInfoSection player={player} darkMode={darkMode} />

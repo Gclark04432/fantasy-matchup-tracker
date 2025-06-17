@@ -1,27 +1,47 @@
 'use client';
 
-import { Zap } from 'lucide-react';
+import { TrendingUp, TrendingDown } from 'lucide-react';
 
 interface ScoreChangeIndicatorProps {
   pointsChange: number | null;
+  darkMode: boolean;
 }
 
 export const ScoreChangeIndicator = ({
   pointsChange,
+  darkMode,
 }: ScoreChangeIndicatorProps) => {
+  if (pointsChange === null) return null;
+
+  const isPositive = pointsChange > 0;
+  const baseStyles =
+    'flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium transition-all duration-200';
+
+  const styles = isPositive
+    ? `${baseStyles} ${
+        darkMode
+          ? 'bg-green-500/30 text-green-400 border border-green-500/40'
+          : 'bg-green-100 text-green-700 border border-green-300'
+      }`
+    : `${baseStyles} ${
+        darkMode
+          ? 'bg-red-500/30 text-red-400 border border-red-500/40'
+          : 'bg-red-100 text-red-700 border border-red-300'
+      }`;
+
   return (
-    pointsChange !== null && (
-      <div
-        className={`animate-fade-in absolute -top-2 -right-2 z-20 transform ${
-          pointsChange > 0 ? 'text-green-500' : 'text-red-500'
-        }`}
-      >
-        <div className='mt-1 flex items-center justify-center rounded-2xl border border-gray-500/30 px-3 shadow-lg backdrop-blur-md'>
-          <Zap className='mr-1 h-3 w-3' />
-          {pointsChange > 0 ? '+' : ''}
+    <div className='animate-fade-in absolute -top-2 right-2 z-20'>
+      <div className={styles}>
+        {isPositive ? (
+          <TrendingUp className='h-3.5 w-3.5' />
+        ) : (
+          <TrendingDown className='h-3.5 w-3.5' />
+        )}
+        <span>
+          {isPositive ? '+' : ''}
           {pointsChange.toFixed(1)}
-        </div>
+        </span>
       </div>
-    )
+    </div>
   );
 };
