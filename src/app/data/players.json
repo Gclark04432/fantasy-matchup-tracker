@@ -1,0 +1,5604 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "firstname": "Matt",
+      "surname": "Prater",
+      "team": "FA",
+      "position": "K",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 2,
+      "firstname": "Joe",
+      "surname": "Flacco",
+      "team": "CLE",
+      "position": "QB",
+      "teamColor": "#311D00",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 3,
+      "firstname": "Jason",
+      "surname": "Witten",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 4,
+      "firstname": "Matt",
+      "surname": "Ryan",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 5,
+      "firstname": "Robbie",
+      "surname": "Gould",
+      "team": "FA",
+      "position": "K",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 6,
+      "firstname": "Mason",
+      "surname": "Crosby",
+      "team": "FA",
+      "position": "K",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 7,
+      "firstname": "Chad",
+      "surname": "Henne",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 8,
+      "firstname": "Aaron",
+      "surname": "Rodgers",
+      "team": "PIT",
+      "position": "QB",
+      "teamColor": "#FFB612",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 9,
+      "firstname": "Stephen",
+      "surname": "Gostkowski",
+      "team": "FA",
+      "position": "K",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 10,
+      "firstname": "Marcedes",
+      "surname": "Lewis",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 11,
+      "firstname": "Adam",
+      "surname": "Vinatieri",
+      "team": "FA",
+      "position": "K",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 12,
+      "firstname": "Matt",
+      "surname": "Bryant",
+      "team": "FA",
+      "position": "K",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 13,
+      "firstname": "Ben",
+      "surname": "Roethlisberger",
+      "team": "PIT",
+      "position": "QB",
+      "teamColor": "#FFB612",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 14,
+      "firstname": "DeSean",
+      "surname": "Jackson",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 15,
+      "firstname": "Tom",
+      "surname": "Brady",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 16,
+      "firstname": "Matt",
+      "surname": "Schaub",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 17,
+      "firstname": "Drew",
+      "surname": "Stanton",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 18,
+      "firstname": "Adrian",
+      "surname": "Peterson",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 19,
+      "firstname": "Vernon",
+      "surname": "Davis",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 20,
+      "firstname": "Josh",
+      "surname": "McCown",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 21,
+      "firstname": "Larry",
+      "surname": "Fitzgerald",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 22,
+      "firstname": "Frank",
+      "surname": "Gore",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 23,
+      "firstname": "Matt",
+      "surname": "Moore",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 24,
+      "firstname": "Darren",
+      "surname": "Sproles",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 25,
+      "firstname": "Josh",
+      "surname": "Johnson",
+      "team": "WAS",
+      "position": "QB",
+      "teamColor": "#5A1414",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 26,
+      "firstname": "Alex",
+      "surname": "Smith",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 27,
+      "firstname": "Delanie",
+      "surname": "Walker",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 28,
+      "firstname": "Drew",
+      "surname": "Brees",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 29,
+      "firstname": "Matthew",
+      "surname": "Slater",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 30,
+      "firstname": "Philip",
+      "surname": "Rivers",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 31,
+      "firstname": "Ryan",
+      "surname": "Fitzpatrick",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 32,
+      "firstname": "Julian",
+      "surname": "Edelman",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 33,
+      "firstname": "Brian",
+      "surname": "Hoyer",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 34,
+      "firstname": "Jared",
+      "surname": "Cook",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 35,
+      "firstname": "Ryan",
+      "surname": "Succop",
+      "team": "FA",
+      "position": "K",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 36,
+      "firstname": "Matthew",
+      "surname": "Stafford",
+      "team": "LAR",
+      "position": "QB",
+      "teamColor": "#003594",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 37,
+      "firstname": "Michael",
+      "surname": "Crabtree",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 38,
+      "firstname": "Chase",
+      "surname": "Daniel",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 39,
+      "firstname": "Danny",
+      "surname": "Amendola",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 40,
+      "firstname": "Graham",
+      "surname": "Gano",
+      "team": "NYG",
+      "position": "K",
+      "teamColor": "#0B2265",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 41,
+      "firstname": "Rob",
+      "surname": "Gronkowski",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 42,
+      "firstname": "Colt",
+      "surname": "McCoy",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 43,
+      "firstname": "Antonio",
+      "surname": "Brown",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 44,
+      "firstname": "Emmanuel",
+      "surname": "Sanders",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 45,
+      "firstname": "Tim",
+      "surname": "Tebow",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 46,
+      "firstname": "Dez",
+      "surname": "Bryant",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 47,
+      "firstname": "Logan",
+      "surname": "Paulsen",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 48,
+      "firstname": "Joe",
+      "surname": "Webb",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 49,
+      "firstname": "Jimmy",
+      "surname": "Graham",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 50,
+      "firstname": "Andre",
+      "surname": "Roberts",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 51,
+      "firstname": "Golden",
+      "surname": "Tate",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 52,
+      "firstname": "Nick",
+      "surname": "Folk",
+      "team": "FA",
+      "position": "K",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 53,
+      "firstname": "Mike",
+      "surname": "Nugent",
+      "team": "FA",
+      "position": "K",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 54,
+      "firstname": "Benjamin",
+      "surname": "Watson",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 55,
+      "firstname": "LeSean",
+      "surname": "McCoy",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 56,
+      "firstname": "Ted",
+      "surname": "Ginn",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 57,
+      "firstname": "Marshawn",
+      "surname": "Lynch",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 58,
+      "firstname": "Stephen",
+      "surname": "Hauschka",
+      "team": "FA",
+      "position": "K",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 59,
+      "firstname": "Dion",
+      "surname": "Lewis",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 60,
+      "firstname": "Charles",
+      "surname": "Clay",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 61,
+      "firstname": "Lee",
+      "surname": "Smith",
+      "team": "ATL",
+      "position": "TE",
+      "teamColor": "#A71930",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 62,
+      "firstname": "Bilal",
+      "surname": "Powell",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 63,
+      "firstname": "Tyrod",
+      "surname": "Taylor",
+      "team": "NYJ",
+      "position": "QB",
+      "teamColor": "#125740",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 64,
+      "firstname": "Andy",
+      "surname": "Dalton",
+      "team": "CAR",
+      "position": "QB",
+      "teamColor": "#0085CA",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 65,
+      "firstname": "A.J.",
+      "surname": "Green",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 66,
+      "firstname": "Blaine",
+      "surname": "Gabbert",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 67,
+      "firstname": "Virgil",
+      "surname": "Green",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 68,
+      "firstname": "Taiwan",
+      "surname": "Jones",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 69,
+      "firstname": "Dan",
+      "surname": "Bailey",
+      "team": "FA",
+      "position": "K",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 70,
+      "firstname": "Dwayne",
+      "surname": "Harris",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 71,
+      "firstname": "Randall",
+      "surname": "Cobb",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 72,
+      "firstname": "Kyle",
+      "surname": "Rudolph",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 73,
+      "firstname": "Julio",
+      "surname": "Jones",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 74,
+      "firstname": "Cam",
+      "surname": "Newton",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 75,
+      "firstname": "Mark",
+      "surname": "Ingram",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 76,
+      "firstname": "Luke",
+      "surname": "Stocker",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 77,
+      "firstname": "Lance",
+      "surname": "Kendricks",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 78,
+      "firstname": "Anthony",
+      "surname": "Sherman",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 79,
+      "firstname": "Nick",
+      "surname": "Foles",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 80,
+      "firstname": "Brandon",
+      "surname": "Bolden",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 81,
+      "firstname": "Lamar",
+      "surname": "Miller",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 82,
+      "firstname": "Ryan",
+      "surname": "Tannehill",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 83,
+      "firstname": "Marvin",
+      "surname": "Jones",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 84,
+      "firstname": "Mohamed",
+      "surname": "Sanu",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 85,
+      "firstname": "Travis",
+      "surname": "Benjamin",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 86,
+      "firstname": "Randy",
+      "surname": "Bullock",
+      "team": "FA",
+      "position": "K",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 87,
+      "firstname": "T.Y.",
+      "surname": "Hilton",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 88,
+      "firstname": "Cole",
+      "surname": "Beasley",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 89,
+      "firstname": "Alshon",
+      "surname": "Jeffery",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 90,
+      "firstname": "Kirk",
+      "surname": "Cousins",
+      "team": "ATL",
+      "position": "QB",
+      "teamColor": "#A71930",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 91,
+      "firstname": "Robert",
+      "surname": "Griffin",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 92,
+      "firstname": "Alfred",
+      "surname": "Morris",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 93,
+      "firstname": "Rhett",
+      "surname": "Ellison",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 94,
+      "firstname": "Jarius",
+      "surname": "Wright",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 95,
+      "firstname": "Garrett",
+      "surname": "Celek",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 96,
+      "firstname": "Robert",
+      "surname": "Turbin",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 97,
+      "firstname": "Russell",
+      "surname": "Wilson",
+      "team": "NYG",
+      "position": "QB",
+      "teamColor": "#0B2265",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 98,
+      "firstname": "Josh",
+      "surname": "Gordon",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 99,
+      "firstname": "Alex",
+      "surname": "Tanney",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 100,
+      "firstname": "Justin",
+      "surname": "Tucker",
+      "team": "FA",
+      "position": "K",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 101,
+      "firstname": "Greg",
+      "surname": "Zuerlein",
+      "team": "FA",
+      "position": "K",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 102,
+      "firstname": "Bradley",
+      "surname": "Sowell",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 103,
+      "firstname": "Francis",
+      "surname": "Owusu",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 104,
+      "firstname": "Kai",
+      "surname": "Forbath",
+      "team": "FA",
+      "position": "K",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 105,
+      "firstname": "Jermaine",
+      "surname": "Kearse",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 106,
+      "firstname": "Josh",
+      "surname": "Bellamy",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 107,
+      "firstname": "Chris",
+      "surname": "Hogan",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 108,
+      "firstname": "Russell",
+      "surname": "Shepard",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 109,
+      "firstname": "Matt",
+      "surname": "Barkley",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 110,
+      "firstname": "Zach",
+      "surname": "Ertz",
+      "team": "WAS",
+      "position": "TE",
+      "teamColor": "#5A1414",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 111,
+      "firstname": "Marquise",
+      "surname": "Goodwin",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 112,
+      "firstname": "Dustin",
+      "surname": "Hopkins",
+      "team": "CLE",
+      "position": "K",
+      "teamColor": "#311D00",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 113,
+      "firstname": "Robert",
+      "surname": "Woods",
+      "team": "PIT",
+      "position": "WR",
+      "teamColor": "#FFB612",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 114,
+      "firstname": "Geno",
+      "surname": "Smith",
+      "team": "LV",
+      "position": "QB",
+      "teamColor": "#000000",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 115,
+      "firstname": "Giovani",
+      "surname": "Bernard",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 116,
+      "firstname": "Rex",
+      "surname": "Burkhead",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 117,
+      "firstname": "Tyler",
+      "surname": "Eifert",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 118,
+      "firstname": "Le'Veon",
+      "surname": "Bell",
+      "team": "TB",
+      "position": "RB",
+      "teamColor": "#D50A0A",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 119,
+      "firstname": "Ryan",
+      "surname": "Griffin",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 120,
+      "firstname": "DeAndre",
+      "surname": "Hopkins",
+      "team": "BAL",
+      "position": "WR",
+      "teamColor": "#241773",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 121,
+      "firstname": "Brandon",
+      "surname": "McManus",
+      "team": "GB",
+      "position": "K",
+      "teamColor": "#203731",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 122,
+      "firstname": "C.J.",
+      "surname": "Anderson",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 123,
+      "firstname": "Travis",
+      "surname": "Kelce",
+      "team": "KC",
+      "position": "TE",
+      "teamColor": "#E31837",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 124,
+      "firstname": "Latavius",
+      "surname": "Murray",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 125,
+      "firstname": "Keenan",
+      "surname": "Allen",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 126,
+      "firstname": "Jordan",
+      "surname": "Reed",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 127,
+      "firstname": "Chris",
+      "surname": "Thompson",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 128,
+      "firstname": "Theo",
+      "surname": "Riddick",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 129,
+      "firstname": "Cordarrelle",
+      "surname": "Patterson",
+      "team": "PIT",
+      "position": "RB",
+      "teamColor": "#FFB612",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 130,
+      "firstname": "Kenjon",
+      "surname": "Barner",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 131,
+      "firstname": "Ryan",
+      "surname": "Griffin",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 132,
+      "firstname": "Kenny",
+      "surname": "Stills",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 133,
+      "firstname": "Mike",
+      "surname": "Glennon",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 134,
+      "firstname": "Tavon",
+      "surname": "Austin",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 135,
+      "firstname": "Vance",
+      "surname": "McDonald",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 136,
+      "firstname": "Darren",
+      "surname": "Fells",
+      "team": "TB",
+      "position": "TE",
+      "teamColor": "#D50A0A",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 137,
+      "firstname": "Spencer",
+      "surname": "Ware",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 138,
+      "firstname": "Luke",
+      "surname": "Willson",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 139,
+      "firstname": "Nick",
+      "surname": "Williams",
+      "team": "DEN",
+      "position": "WR",
+      "teamColor": "#FB4F14",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 140,
+      "firstname": "Tyler",
+      "surname": "Bray",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 141,
+      "firstname": "Demetrius",
+      "surname": "Harris",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 142,
+      "firstname": "Levine",
+      "surname": "Toilolo",
+      "team": "NYG",
+      "position": "TE",
+      "teamColor": "#0B2265",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 143,
+      "firstname": "Terrell",
+      "surname": "Sinkfield",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 144,
+      "firstname": "Uzoma",
+      "surname": "Nwachukwu",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 145,
+      "firstname": "Jaron",
+      "surname": "Brown",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 146,
+      "firstname": "Adam",
+      "surname": "Thielen",
+      "team": "CAR",
+      "position": "WR",
+      "teamColor": "#0085CA",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 147,
+      "firstname": "Eric",
+      "surname": "Rogers",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 148,
+      "firstname": "Jack",
+      "surname": "Doyle",
+      "team": "IND",
+      "position": "TE",
+      "teamColor": "#002C5F",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 149,
+      "firstname": "Derek",
+      "surname": "Carrier",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 150,
+      "firstname": "Case",
+      "surname": "Keenum",
+      "team": "CHI",
+      "position": "QB",
+      "teamColor": "#0B162A",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 151,
+      "firstname": "Josh",
+      "surname": "Hill",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 152,
+      "firstname": "Trey",
+      "surname": "Burton",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 153,
+      "firstname": "David",
+      "surname": "Fluellen",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 154,
+      "firstname": "Jordan",
+      "surname": "Matthews",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 155,
+      "firstname": "Sammy",
+      "surname": "Watkins",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 156,
+      "firstname": "Jarvis",
+      "surname": "Landry",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 157,
+      "firstname": "Damien",
+      "surname": "Williams",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 158,
+      "firstname": "Jimmy",
+      "surname": "Garoppolo",
+      "team": "LAR",
+      "position": "QB",
+      "teamColor": "#003594",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 159,
+      "firstname": "Stephen",
+      "surname": "Houston",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 160,
+      "firstname": "Derrick",
+      "surname": "Johnson",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 161,
+      "firstname": "James",
+      "surname": "White",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 162,
+      "firstname": "Quincy",
+      "surname": "Enunwa",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 163,
+      "firstname": "Shaquelle",
+      "surname": "Evans",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 164,
+      "firstname": "AJ",
+      "surname": "McCarron",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 165,
+      "firstname": "Taylor",
+      "surname": "Gabriel",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 166,
+      "firstname": "Willie",
+      "surname": "Snead",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 167,
+      "firstname": "Martavis",
+      "surname": "Bryant",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 168,
+      "firstname": "Derel",
+      "surname": "Walker",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 169,
+      "firstname": "Lacoltan",
+      "surname": "Bester",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 170,
+      "firstname": "Chris",
+      "surname": "Boswell",
+      "team": "PIT",
+      "position": "K",
+      "teamColor": "#FFB612",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 171,
+      "firstname": "Donte",
+      "surname": "Moncrief",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 172,
+      "firstname": "Cody",
+      "surname": "Parkey",
+      "team": "FA",
+      "position": "K",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 173,
+      "firstname": "Blake",
+      "surname": "Bortles",
+      "team": "NO",
+      "position": "QB",
+      "teamColor": "#D3BC8D",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 174,
+      "firstname": "Allen",
+      "surname": "Hurns",
+      "team": "MIA",
+      "position": "WR",
+      "teamColor": "#008E97",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 175,
+      "firstname": "Marqise",
+      "surname": "Lee",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 176,
+      "firstname": "Allen",
+      "surname": "Robinson",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 177,
+      "firstname": "Bennie",
+      "surname": "Fowler",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 178,
+      "firstname": "Cody",
+      "surname": "Latimer",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 179,
+      "firstname": "Cairo",
+      "surname": "Santos",
+      "team": "CHI",
+      "position": "K",
+      "teamColor": "#0B162A",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 180,
+      "firstname": "De'Anthony",
+      "surname": "Thomas",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 181,
+      "firstname": "Albert",
+      "surname": "Wilson",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 182,
+      "firstname": "Derek",
+      "surname": "Carr",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 183,
+      "firstname": "Seth",
+      "surname": "Roberts",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 184,
+      "firstname": "Scott",
+      "surname": "Simonson",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 185,
+      "firstname": "Brelan",
+      "surname": "Chancellor",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 186,
+      "firstname": "Odell",
+      "surname": "Beckham",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 187,
+      "firstname": "Xavier",
+      "surname": "Grimble",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 188,
+      "firstname": "Ryan",
+      "surname": "Grant",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 189,
+      "firstname": "David",
+      "surname": "Fales",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 190,
+      "firstname": "Senorise",
+      "surname": "Perry",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 191,
+      "firstname": "Eric",
+      "surname": "Ebron",
+      "team": "PIT",
+      "position": "TE",
+      "teamColor": "#FFB612",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 192,
+      "firstname": "James",
+      "surname": "Franklin",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 193,
+      "firstname": "T.J.",
+      "surname": "Jones",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 194,
+      "firstname": "Davante",
+      "surname": "Adams",
+      "team": "LAR",
+      "position": "WR",
+      "teamColor": "#003594",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 195,
+      "firstname": "Rajion",
+      "surname": "Neal",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 196,
+      "firstname": "Richard",
+      "surname": "Rodgers",
+      "team": "FA",
+      "position": "TE",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 197,
+      "firstname": "Teddy",
+      "surname": "Bridgewater",
+      "team": "FA",
+      "position": "QB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 198,
+      "firstname": "Jerick",
+      "surname": "McKinnon",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 199,
+      "firstname": "Devonta",
+      "surname": "Freeman",
+      "team": "FA",
+      "position": "RB",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    },
+    {
+      "id": 200,
+      "firstname": "Marcus",
+      "surname": "Lucas",
+      "team": "FA",
+      "position": "WR",
+      "teamColor": "#666666",
+      "photoUrl": "",
+      "seasonStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "weekStats": {
+        "points": 0,
+        "projection": 0,
+        "passingYards": 0,
+        "touchdowns": 0,
+        "interceptions": 0,
+        "rushingYards": 0,
+        "receivingYards": 0
+      },
+      "isProjectedToScore": true
+    }
+  ]
+}

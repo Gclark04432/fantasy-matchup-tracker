@@ -7,7 +7,7 @@ import { Button } from '@/app/components/ui/Button';
 import { Switch } from '@/app/components/ui/Switch';
 import { PlayerCard } from '@/app/components/ui/PlayerCard';
 import { Player } from '@/app/types/Player';
-import { mockSearch } from '@/app/lib/mockSearch';
+import { searchPlayers } from '@/app/lib/playerSearch';
 import { Loader2, Search, Eye } from 'lucide-react';
 import { samplePlayers } from './data/ExamplePlayers';
 
@@ -23,10 +23,10 @@ export default function FantasyMatchupTracker() {
 
     setIsSearching(true);
     try {
-      // Simulate API call delay
-      await new Promise((resolve) => setTimeout(resolve, 500));
-      const player = mockSearch(searchQuery);
-      setSearchResults([player]);
+      // Simulate API call delay for better UX
+      await new Promise((resolve) => setTimeout(resolve, 300));
+      const results = searchPlayers(searchQuery);
+      setSearchResults(results);
     } catch (error) {
       console.error('Search failed:', error);
       setSearchResults([]);
