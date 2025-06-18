@@ -9,13 +9,14 @@
     "lint": "next lint",
     "format": "prettier --write .",
     "build:local": "prettier --write . && next build",
-    "fetch-players": "node scripts/fetch-players.js"
+    "convert-fantasypros": "node scripts/convert-fantasypros-csv.js"
   },
   "dependencies": {
     "@supabase/ssr": "^0.6.1",
     "@supabase/supabase-js": "^2.50.0",
     "@tailwindcss/postcss": "^4.0.15",
     "autoprefixer": "^10.4.21",
+    "csv-parse": "^5.6.0",
     "framer-motion": "^12.16.0",
     "lucide-react": "^0.513.0",
     "next": "15.3.3",

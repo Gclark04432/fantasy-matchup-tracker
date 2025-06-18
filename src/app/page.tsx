@@ -110,7 +110,7 @@ export default function FantasyMatchupTracker() {
                     <PlayerCard player={player} darkMode={darkMode} />
                     <Button
                       onClick={() => addToWatched(player)}
-                      className='absolute top-2 right-2 z-10 h-8 w-8 rounded-full p-0'
+                      className='absolute -top-2 -right-2 z-10 h-8 w-8 rounded-full p-0 hover:cursor-pointer'
                       disabled={
                         watchedPlayers.find((p) => p.id === player.id) !==
                         undefined
