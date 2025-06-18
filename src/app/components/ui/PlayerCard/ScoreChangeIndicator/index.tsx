@@ -30,7 +30,7 @@ export const ScoreChangeIndicator = ({
       }`;
 
   return (
-    <div className='animate-fade-in absolute -top-2 right-2 z-20'>
+    <div className='animate-fade-in absolute -top-2 left-2 z-20'>
       <div className={styles}>
         {isPositive ? (
           <TrendingUp className='h-3.5 w-3.5' />

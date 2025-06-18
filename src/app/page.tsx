@@ -8,42 +8,43 @@ import { Switch } from '@/app/components/ui/Switch';
 import { PlayerCard } from '@/app/components/ui/PlayerCard';
 import { Player } from '@/app/types/Player';
 import { mockSearch } from '@/app/lib/mockSearch';
-import { Loader2 } from 'lucide-react';
+import { Loader2, Search, Eye } from 'lucide-react';
 import { samplePlayers } from './data/ExamplePlayers';
-import { AuthLandingPage } from './components/ui/LoginPage';
 
 export default function FantasyMatchupTracker() {
-  const [players, setPlayers] = useState<Player[]>(samplePlayers);
-  const [query, setQuery] = useState<string>('');
+  const [watchedPlayers, setWatchedPlayers] = useState<Player[]>(samplePlayers);
+  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [searchResults, setSearchResults] = useState<Player[]>([]);
   const [darkMode, setDarkMode] = useState<boolean>(false);
-  const [loading, setLoading] = useState<boolean>(false);
-  const [loggedIn, setLoggedIn] = useState<boolean>(false);
+  const [isSearching, setIsSearching] = useState<boolean>(false);
 
-  // const handleSearch = async (): Promise<void> => {
-  //   if (!query) return;
-  //   setLoading(true);
-  //   try {
-  //     await fetch('/api', {
-  //       method: 'POST',
-  //       headers: {
-  //         'Content-Type': 'application/json',
-  //       },
-  //       body: JSON.stringify({
-  //         id: players[0].id,
-  //         name: players[0].name,
-  //         team: players[0].team,
-  //       }),
-  //     });
-  //   } catch (e) {
-  //     console.log(e);
-  //   }
-  // setTimeout(() => {
-  //   const player = mockSearch(query);
-  //   setPlayers((prev) => [...prev, player]);
-  //   setQuery('');
-  //   setLoading(false);
-  // }, 500); // simulate fetch delay
-  // };
+  const handleSearch = async (): Promise<void> => {
+    if (!searchQuery.trim()) return;
+
+    setIsSearching(true);
+    try {
+      // Simulate API call delay
+      await new Promise((resolve) => setTimeout(resolve, 500));
+      const player = mockSearch(searchQuery);
+      setSearchResults([player]);
+    } catch (error) {
+      console.error('Search failed:', error);
+      setSearchResults([]);
+    } finally {
+      setIsSearching(false);
+    }
+  };
+
+  const addToWatched = (player: Player): void => {
+    if (!watchedPlayers.find((p) => p.id === player.id)) {
+      setWatchedPlayers((prev) => [...prev, player]);
+      setSearchResults([]);
+    }
+  };
+
+  const removeFromWatched = (playerId: number): void => {
+    setWatchedPlayers((prev) => prev.filter((p) => p.id !== playerId));
+  };
 
   return (
     <div
@@ -62,35 +63,115 @@ export default function FantasyMatchupTracker() {
         </div>
       </header>
 
-      {/* Main Content */}
-      <main className='mx-auto max-w-6xl space-y-10'>
-        {/* <div className='flex flex-col gap-4 sm:flex-row'>
+      {/* Search Bar */}
+      <div className='mx-auto mb-8 max-w-6xl'>
+        <div className='flex flex-col gap-4 sm:flex-row'>
           <Input
             placeholder='Enter player name'
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
             className='flex-grow'
           />
           <Button
             onClick={handleSearch}
             className='transition-transform hover:scale-105'
-            disabled={loading}
+            disabled={isSearching || !searchQuery.trim()}
           >
-            {loading ? (
+            {isSearching ? (
               <Loader2 className='h-4 w-4 animate-spin' />
             ) : (
-              'Track Player'
+              'Search'
             )}
           </Button>
-        </div> */}
-
-        <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-          <AnimatePresence>
-            {players.map((player) => (
-              <PlayerCard key={player.id} player={player} darkMode={darkMode} />
-            ))}
-          </AnimatePresence>
         </div>
+      </div>
+
+      {/* Main Content - Single Column Layout */}
+      <main className='mx-auto max-w-6xl space-y-12'>
+        {/* Search Results Section */}
+        <section className='space-y-6'>
+          <div className='flex items-center gap-3'>
+            <Search className='h-6 w-6' />
+            <h2 className='text-2xl font-semibold'>Search Results</h2>
+          </div>
+
+          {searchResults.length === 0 ? (
+            <div className='rounded-lg border-2 border-dashed border-gray-300 p-8 text-center dark:border-gray-600'>
+              <p className='text-gray-500 dark:text-gray-400'>
+                Search for players above to see results here.
+              </p>
+            </div>
+          ) : (
+            <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+              <AnimatePresence>
+                {searchResults.map((player) => (
+                  <div key={player.id} className='relative'>
+                    <PlayerCard player={player} darkMode={darkMode} />
+                    <Button
+                      onClick={() => addToWatched(player)}
+                      className='absolute top-2 right-2 z-10 h-8 w-8 rounded-full p-0'
+                      disabled={
+                        watchedPlayers.find((p) => p.id === player.id) !==
+                        undefined
+                      }
+                    >
+                      +
+                    </Button>
+                  </div>
+                ))}
+              </AnimatePresence>
+            </div>
+          )}
+        </section>
+
+        {/* Divider */}
+        <div className='relative'>
+          <div className='absolute inset-0 flex items-center'>
+            <div className='w-full border-t border-gray-300 dark:border-gray-600'></div>
+          </div>
+          <div className='relative flex justify-center'>
+            <span className='bg-white px-4 text-sm font-medium text-gray-500 dark:bg-gray-900 dark:text-gray-400'>
+              Your Watched Players
+            </span>
+          </div>
+        </div>
+
+        {/* Watched Players Section */}
+        <section className='space-y-6'>
+          <div className='flex items-center gap-3'>
+            <Eye className='h-6 w-6' />
+            <h2 className='text-2xl font-semibold'>Watched Players</h2>
+            <span className='rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-200'>
+              {watchedPlayers.length}
+            </span>
+          </div>
+
+          {watchedPlayers.length === 0 ? (
+            <div className='rounded-lg border-2 border-dashed border-gray-300 p-8 text-center dark:border-gray-600'>
+              <p className='text-gray-500 dark:text-gray-400'>
+                No players being watched yet. Search for players above to start
+                tracking them.
+              </p>
+            </div>
+          ) : (
+            <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+              <AnimatePresence>
+                {watchedPlayers.map((player) => (
+                  <div key={player.id} className='relative'>
+                    <PlayerCard player={player} darkMode={darkMode} />
+                    <Button
+                      onClick={() => removeFromWatched(player.id)}
+                      className='absolute -top-2 -right-2 z-10 h-8 w-8 rounded-full bg-red-500 p-0 hover:cursor-pointer hover:bg-red-600'
+                    >
+                      ×
+                    </Button>
+                  </div>
+                ))}
+              </AnimatePresence>
+            </div>
+          )}
+        </section>
       </main>
     </div>
   );

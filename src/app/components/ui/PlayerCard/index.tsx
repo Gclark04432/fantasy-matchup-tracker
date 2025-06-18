@@ -42,7 +42,7 @@ export function PlayerCard({ player, darkMode }: PlayerCardProps) {
 
   return (
     <div
-      className={`group relative cursor-pointer overflow-hidden rounded-xl border transition-all duration-500 hover:scale-[1.02] ${
+      className={`group relative overflow-hidden rounded-xl border transition-all duration-500 hover:scale-[1.02] ${
         darkMode
           ? 'border-gray-700 bg-gray-900 text-white shadow-lg shadow-gray-900/50'
           : 'border-gray-200 bg-white text-gray-800 shadow-md shadow-gray-200/50'
