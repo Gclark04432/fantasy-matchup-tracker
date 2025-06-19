@@ -13,10 +13,6 @@ export class WatchedPlayersService {
   // Get watched players for a user
   static async getWatchedPlayers(email: string): Promise<number[]> {
     try {
-      console.log(
-        'WatchedPlayersService: Getting watched players for email:',
-        email,
-      );
       const supabase = await this.getClient();
 
       const { data, error } = await supabase
@@ -24,8 +20,6 @@ export class WatchedPlayersService {
         .select('watched_players')
         .eq('email', email)
         .single();
-
-      console.log('WatchedPlayersService: Database response:', { data, error });
 
       if (error && error.code !== 'PGRST116') {
         // PGRST116 is "not found"
@@ -46,8 +40,6 @@ export class WatchedPlayersService {
           playerIds = [];
         }
       }
-
-      console.log('WatchedPlayersService: Returning player IDs:', playerIds);
       return playerIds;
     } catch (error) {
       console.error('Error in getWatchedPlayers:', error);
@@ -61,12 +53,6 @@ export class WatchedPlayersService {
     playerIds: number[],
   ): Promise<boolean> {
     try {
-      console.log(
-        'WatchedPlayersService: Saving watched players for email:',
-        email,
-        'Player IDs:',
-        playerIds,
-      );
       const supabase = await this.getClient();
 
       // Use upsert to either insert or update
@@ -80,14 +66,11 @@ export class WatchedPlayersService {
         },
       );
 
-      console.log('WatchedPlayersService: Save response error:', error);
-
       if (error) {
         console.error('Error saving watched players:', error);
         return false;
       }
 
-      console.log('WatchedPlayersService: Successfully saved watched players');
       return true;
     } catch (error) {
       console.error('Error in saveWatchedPlayers:', error);

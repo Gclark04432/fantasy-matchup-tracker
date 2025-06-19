@@ -69,16 +69,9 @@ export const getTopPlayersByPosition = (
 
 // Get players by array of IDs
 export const getPlayersByIds = (playerIds: number[]): Player[] => {
-  console.log('getPlayersByIds called with IDs:', playerIds);
   const allPlayers = getAllPlayers();
-  console.log('Total players available:', allPlayers.length);
   const filteredPlayers = allPlayers.filter((player) =>
     playerIds.includes(player.id),
-  );
-  console.log(
-    'Filtered players found:',
-    filteredPlayers.length,
-    filteredPlayers.map((p) => `${p.firstname} ${p.surname} (ID: ${p.id})`),
   );
   return filteredPlayers;
 };

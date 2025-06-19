@@ -16,8 +16,6 @@ export class ScoreSimulator {
     allPlayers.forEach((player) => {
       this.schedulePlayerUpdate(player.id, onScoreUpdate);
     });
-
-    console.log(`Started score simulation for ${allPlayers.length} players`);
   }
 
   // Stop all simulations
@@ -25,7 +23,6 @@ export class ScoreSimulator {
     this.isRunning = false;
     this.intervals.forEach((interval) => clearTimeout(interval));
     this.intervals.clear();
-    console.log('Stopped score simulation');
   }
 
   // Schedule a random update for a specific player
@@ -73,10 +70,6 @@ export class ScoreSimulator {
 
     // Notify the component about the update
     onScoreUpdate(playerId, player.seasonStats.points);
-
-    console.log(
-      `Updated ${player.firstname} ${player.surname}: ${scoreChange > 0 ? '+' : ''}${scoreChange} points`,
-    );
   }
 
   // Get simulation status
