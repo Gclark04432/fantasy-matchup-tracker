@@ -8,6 +8,6 @@ export default async function Page() {
   if (!error || data?.user) {
     redirect('/dashboard');
   } else {
-    redirect('login');
+    redirect('/login');
   }
 }

@@ -18,7 +18,7 @@ export default function FantasyMatchupTracker() {
   const [watchedPlayers, setWatchedPlayers] = useState<Player[]>([]);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [searchResults, setSearchResults] = useState<Player[]>([]);
-  const [darkMode, setDarkMode] = useState<boolean>(false);
+  const [darkMode, setDarkMode] = useState<boolean>(true);
   const [isSearching, setIsSearching] = useState<boolean>(false);
   const [user, setUser] = useState<{ email: string } | null>(null);
   const [userEmail, setUserEmail] = useState<string>('');
