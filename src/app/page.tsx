@@ -1,22 +1,107 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { Input } from '@/app/components/ui/Input';
 import { Button } from '@/app/components/ui/Button';
 import { Switch } from '@/app/components/ui/Switch';
 import { PlayerCard } from '@/app/components/ui/PlayerCard';
 import { Player } from '@/app/types/Player';
-import { searchPlayers } from '@/app/lib/playerSearch';
-import { Loader2, Search, Eye } from 'lucide-react';
-import { samplePlayers } from './data/ExamplePlayers';
+import { searchPlayers, getPlayersByIds } from '@/app/lib/playerSearch';
+import { WatchedPlayersService } from '@/app/lib/watchedPlayersService';
+import { createClient } from '@/app/lib/supabase/client';
+import { Loader2, Search, Eye, User, LogOut } from 'lucide-react';
 
 export default function FantasyMatchupTracker() {
-  const [watchedPlayers, setWatchedPlayers] = useState<Player[]>(samplePlayers);
+  const [watchedPlayers, setWatchedPlayers] = useState<Player[]>([]);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [searchResults, setSearchResults] = useState<Player[]>([]);
   const [darkMode, setDarkMode] = useState<boolean>(false);
   const [isSearching, setIsSearching] = useState<boolean>(false);
+  const [user, setUser] = useState<{ email: string } | null>(null);
+  const [userEmail, setUserEmail] = useState<string>('');
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [isSaving, setIsSaving] = useState<boolean>(false);
+
+  // Initialize Supabase and load user data
+  useEffect(() => {
+    const initializeApp = async () => {
+      try {
+        const supabase = await createClient();
+
+        // Get current user
+        const {
+          data: { user },
+        } = await supabase.auth.getUser();
+        if (user?.email) {
+          setUser({ email: user.email });
+          setUserEmail(user.email);
+          await loadWatchedPlayers(user.email);
+        } else {
+          setUser(null);
+        }
+      } catch (error) {
+        console.error('Error initializing app:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    initializeApp();
+  }, []);
+
+  // Load watched players from database
+  const loadWatchedPlayers = async (email: string) => {
+    try {
+      console.log('Loading watched players for email:', email);
+      const playerIds = await WatchedPlayersService.getWatchedPlayers(email);
+      console.log('Player IDs from database:', playerIds);
+      const players = getPlayersByIds(playerIds);
+      console.log(
+        'Players loaded from database:',
+        players.length,
+        players.map((p) => `${p.firstname} ${p.surname}`),
+      );
+      console.log('Setting watchedPlayers state to:', players);
+      setWatchedPlayers(players);
+    } catch (error) {
+      console.error('Error loading watched players:', error);
+    }
+  };
+
+  // Debug: Log whenever watchedPlayers state changes
+  useEffect(() => {
+    console.log(
+      'watchedPlayers state changed:',
+      watchedPlayers.length,
+      watchedPlayers.map((p) => `${p.firstname} ${p.surname}`),
+    );
+  }, [watchedPlayers]);
+
+  // Save watched players to database
+  const saveWatchedPlayers = async (players: Player[]) => {
+    if (!userEmail) return;
+
+    setIsSaving(true);
+    try {
+      const playerIds = players.map((p) => p.id);
+      console.log('Saving players to database:', playerIds);
+      const success = await WatchedPlayersService.saveWatchedPlayers(
+        userEmail,
+        playerIds,
+      );
+
+      if (!success) {
+        console.error('Failed to save watched players');
+      } else {
+        console.log('Successfully saved players to database');
+      }
+    } catch (error) {
+      console.error('Error saving watched players:', error);
+    } finally {
+      setIsSaving(false);
+    }
+  };
 
   const handleSearch = async (): Promise<void> => {
     if (!searchQuery.trim()) return;
@@ -35,16 +120,47 @@ export default function FantasyMatchupTracker() {
     }
   };
 
-  const addToWatched = (player: Player): void => {
+  const addToWatched = async (player: Player): Promise<void> => {
+    if (!userEmail) {
+      alert('Please sign in to save players to your watchlist');
+      return;
+    }
+
     if (!watchedPlayers.find((p) => p.id === player.id)) {
-      setWatchedPlayers((prev) => [...prev, player]);
+      const updatedPlayers = [...watchedPlayers, player];
+      setWatchedPlayers(updatedPlayers);
       setSearchResults([]);
+      await saveWatchedPlayers(updatedPlayers);
     }
   };
 
-  const removeFromWatched = (playerId: number): void => {
-    setWatchedPlayers((prev) => prev.filter((p) => p.id !== playerId));
+  const removeFromWatched = async (playerId: number): Promise<void> => {
+    if (!userEmail) return;
+
+    const updatedPlayers = watchedPlayers.filter((p) => p.id !== playerId);
+    setWatchedPlayers(updatedPlayers);
+    await saveWatchedPlayers(updatedPlayers);
   };
+
+  const handleSignOut = async () => {
+    try {
+      const supabase = await createClient();
+      await supabase.auth.signOut();
+      setUser(null);
+      setUserEmail('');
+      setWatchedPlayers([]);
+    } catch (error) {
+      console.error('Error signing out:', error);
+    }
+  };
+
+  if (isLoading) {
+    return (
+      <div className='flex min-h-screen items-center justify-center'>
+        <Loader2 className='h-8 w-8 animate-spin' />
+      </div>
+    );
+  }
 
   return (
     <div
@@ -56,9 +172,26 @@ export default function FantasyMatchupTracker() {
           <h1 className='text-center text-3xl font-bold sm:text-left sm:text-4xl'>
             Fantasy Matchup Tracker
           </h1>
-          <div className='flex items-center gap-2'>
-            <span>Dark Mode</span>
-            <Switch checked={darkMode} onCheckedChange={setDarkMode} />
+          <div className='flex items-center gap-4'>
+            {user ? (
+              <div className='flex items-center gap-2'>
+                <User className='h-4 w-4' />
+                <span className='text-sm'>{userEmail}</span>
+                <Button
+                  onClick={handleSignOut}
+                  className='flex items-center gap-1'
+                >
+                  <LogOut className='h-3 w-3' />
+                  Sign Out
+                </Button>
+              </div>
+            ) : (
+              <span className='text-sm text-gray-500'>Not signed in</span>
+            )}
+            <div className='flex items-center gap-2'>
+              <span>Dark Mode</span>
+              <Switch checked={darkMode} onCheckedChange={setDarkMode} />
+            </div>
           </div>
         </div>
       </header>
@@ -104,9 +237,9 @@ export default function FantasyMatchupTracker() {
             </div>
           ) : (
             <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-              <AnimatePresence>
+              <AnimatePresence mode='wait'>
                 {searchResults.map((player) => (
-                  <div key={player.id} className='relative'>
+                  <div key={`search-${player.id}`} className='relative'>
                     <PlayerCard player={player} darkMode={darkMode} />
                     <Button
                       onClick={() => addToWatched(player)}
@@ -145,9 +278,18 @@ export default function FantasyMatchupTracker() {
             <span className='rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-200'>
               {watchedPlayers.length}
             </span>
+            {isSaving && (
+              <Loader2 className='h-4 w-4 animate-spin text-blue-500' />
+            )}
           </div>
 
-          {watchedPlayers.length === 0 ? (
+          {!user ? (
+            <div className='rounded-lg border-2 border-dashed border-gray-300 p-8 text-center dark:border-gray-600'>
+              <p className='text-gray-500 dark:text-gray-400'>
+                Please sign in to save and track your watched players.
+              </p>
+            </div>
+          ) : watchedPlayers.length === 0 ? (
             <div className='rounded-lg border-2 border-dashed border-gray-300 p-8 text-center dark:border-gray-600'>
               <p className='text-gray-500 dark:text-gray-400'>
                 No players being watched yet. Search for players above to start
@@ -156,18 +298,20 @@ export default function FantasyMatchupTracker() {
             </div>
           ) : (
             <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-              <AnimatePresence>
-                {watchedPlayers.map((player) => (
-                  <div key={player.id} className='relative'>
-                    <PlayerCard player={player} darkMode={darkMode} />
-                    <Button
-                      onClick={() => removeFromWatched(player.id)}
-                      className='absolute -top-2 -right-2 z-10 h-8 w-8 rounded-full bg-red-500 p-0 hover:cursor-pointer hover:bg-red-600'
-                    >
-                      ×
-                    </Button>
-                  </div>
-                ))}
+              <AnimatePresence mode='wait'>
+                {watchedPlayers.map((player) => {
+                  return (
+                    <div key={`watched-${player.id}`} className='relative'>
+                      <PlayerCard player={player} darkMode={darkMode} />
+                      <Button
+                        onClick={() => removeFromWatched(player.id)}
+                        className='absolute -top-2 -right-2 z-10 h-8 w-8 rounded-full bg-red-500 p-0 hover:cursor-pointer hover:bg-red-600'
+                      >
+                        ×
+                      </Button>
+                    </div>
+                  );
+                })}
               </AnimatePresence>
             </div>
           )}
