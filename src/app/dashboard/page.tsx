@@ -12,8 +12,7 @@ import { WatchedPlayersService } from '@/app/lib/watchedPlayersService';
 import { ScoreSimulator } from '@/app/lib/scoreSimulator';
 import { createClient } from '@/app/lib/supabase/client';
 import { Loader2, Search, Eye, User, LogOut, Play, Pause } from 'lucide-react';
-import { useRouter } from 'next/navigation'
-
+import { useRouter } from 'next/navigation';
 
 export default function FantasyMatchupTracker() {
   const [watchedPlayers, setWatchedPlayers] = useState<Player[]>([]);
@@ -27,7 +26,7 @@ export default function FantasyMatchupTracker() {
   const [isSaving, setIsSaving] = useState<boolean>(false);
   const [isSimulationRunning, setIsSimulationRunning] =
     useState<boolean>(false);
-const router = useRouter()
+  const router = useRouter();
 
   // Initialize Supabase and load user data
   useEffect(() => {
@@ -137,7 +136,7 @@ const router = useRouter()
       setUser(null);
       setUserEmail('');
       setWatchedPlayers([]);
-      router.push('/login')
+      router.push('/login');
     } catch (error) {
       console.error('Error signing out:', error);
     }
