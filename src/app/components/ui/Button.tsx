@@ -7,7 +7,7 @@ export function Button({
   return (
     <button
       {...props}
-      className={`rounded-lg bg-sky-800 transition duration-300 ${className}`}
+      className={`rounded-lg transition duration-300 ${className}`}
     />
   );
 }

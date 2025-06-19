@@ -105,7 +105,7 @@ export default function AuthPage() {
               />
               <button
                 type='button'
-                className='absolute top-1/2 right-3 -translate-y-1/2 text-sky-500 hover:text-sky-700'
+                className='absolute top-1/2 right-3 -translate-y-1/2 text-sky-500 hover:cursor-pointer hover:text-sky-700'
                 onClick={() => setShowPassword((v) => !v)}
                 tabIndex={-1}
               >
@@ -133,7 +133,7 @@ export default function AuthPage() {
               </button>
             </div>
             <Button
-              className='w-full bg-sky-500 py-2 text-lg font-bold text-white transition hover:bg-sky-600 disabled:opacity-50'
+              className='w-full bg-sky-500 py-2 text-lg font-bold text-white transition hover:cursor-pointer hover:bg-sky-600 disabled:opacity-50'
               type='submit'
               disabled={loading}
             >
@@ -143,22 +143,6 @@ export default function AuthPage() {
                   ? 'Login'
                   : 'Sign Up'}
             </Button>
-            <div className='mt-2 flex flex-col gap-2'>
-              <button
-                type='button'
-                className='flex w-full items-center justify-center gap-2 rounded-lg border border-gray-300 bg-white py-2 text-sky-700 transition hover:bg-sky-50'
-                onClick={() => setError('Social login not implemented.')}
-              >
-                <span className='text-xl'>🔵</span> Continue with Google
-              </button>
-              <button
-                type='button'
-                className='flex w-full items-center justify-center gap-2 rounded-lg border border-gray-300 bg-white py-2 text-sky-700 transition hover:bg-sky-50'
-                onClick={() => setError('Social login not implemented.')}
-              >
-                <span className='text-xl'>🔷</span> Continue with Facebook
-              </button>
-            </div>
           </form>
           {/* Feedback */}
           {error && (
@@ -179,18 +163,6 @@ export default function AuthPage() {
               {success}
             </motion.div>
           )}
-          {/* Switch Auth Mode (for mobile) */}
-          <div className='mt-6 text-center md:hidden'>
-            {mode === 'login'
-              ? "Don't have an account?"
-              : 'Already have an account?'}{' '}
-            <button
-              className='text-sky-500 underline hover:text-sky-700'
-              onClick={() => setMode(mode === 'login' ? 'signup' : 'login')}
-            >
-              {mode === 'login' ? 'Sign Up' : 'Log In'}
-            </button>
-          </div>
         </motion.div>
       </div>
     </div>

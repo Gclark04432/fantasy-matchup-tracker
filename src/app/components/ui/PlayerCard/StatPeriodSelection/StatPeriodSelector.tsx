@@ -20,7 +20,7 @@ export const StatPeriodSelector = ({
   return (
     <Button
       onClick={handleButtonClick}
-      className={`flex flex-1 items-center justify-center border border-white p-2 transition-all duration-300 ${!selected && selectableClassNames} ${selected && 'text-white'}`}
+      className={`flex flex-1 items-center justify-center border border-white bg-sky-800 p-2 transition-all duration-300 ${!selected && selectableClassNames} ${selected && 'text-white'}`}
       disabled={selected}
     >
       {period === 'Season' ? (

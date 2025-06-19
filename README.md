@@ -23,7 +23,7 @@ A modern, real-time fantasy football player tracking application built with Next
 - **Responsive Design**: Works perfectly on mobile, tablet, and desktop
 - **TypeScript**: Full type safety throughout the application
 - **Real-time Database**: Supabase integration for instant data sync
-- **Smooth Animations**: Framer Motion for beautiful transitions
+- **Smooth Animations**: Framer Motion for transitions
 - **Local Data**: Fast player search using local JSON database
 - **Score Simulation**: Live updates to demonstrate real-time functionality
 
@@ -219,49 +219,12 @@ The `watched_players` table structure:
 }
 ```
 
-## 🚀 Deployment
-
-### Vercel (Recommended)
-
-1. Connect your GitHub repository to Vercel
-2. Add environment variables in Vercel dashboard
-3. Deploy automatically on push to main branch
-
-### Other Platforms
-
-The app can be deployed to any platform that supports Next.js:
-
-- Netlify
-- Railway
-- DigitalOcean App Platform
-- AWS Amplify
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **FantasyPros** for player data and projections
-- **Supabase** for the amazing backend-as-a-service
-- **Next.js** team for the incredible React framework
+- **Supabase** for backend-as-a-service
+- **Next.js** team for the React framework
 - **Tailwind CSS** for the utility-first CSS framework
-
-## 📞 Support
-
-If you have any questions or need help:
-
-- Open an issue on GitHub
-- Check the [Supabase documentation](https://supabase.com/docs)
-- Review the [Next.js documentation](https://nextjs.org/docs)
 
 ---
 

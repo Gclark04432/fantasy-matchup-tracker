@@ -232,7 +232,7 @@ export default function FantasyMatchupTracker() {
                 </div>
                 <Button
                   onClick={handleSignOut}
-                  className='flex items-center gap-1 px-3 py-2 text-sm'
+                  className='flex cursor-pointer items-center gap-1 bg-sky-800 px-3 py-2 text-sm'
                 >
                   <LogOut className='h-3 w-3' />
                   <span className='hidden sm:inline'>Sign Out</span>
@@ -247,7 +247,7 @@ export default function FantasyMatchupTracker() {
             <div className='flex flex-col items-center gap-3 sm:flex-row sm:gap-2'>
               <Button
                 onClick={toggleSimulation}
-                className={`flex items-center gap-1 px-3 py-2 text-sm ${isSimulationRunning ? 'bg-green-500 hover:bg-green-600' : 'bg-gray-500 hover:bg-gray-600'}`}
+                className={`flex items-center gap-1 px-3 py-2 text-sm hover:cursor-pointer ${isSimulationRunning ? 'bg-green-500 hover:bg-green-600' : 'bg-gray-500 hover:bg-gray-600'}`}
               >
                 {isSimulationRunning ? (
                   <>
@@ -285,7 +285,7 @@ export default function FantasyMatchupTracker() {
           />
           <Button
             onClick={handleSearch}
-            className='px-6 py-2 transition-transform hover:scale-105'
+            className='bg-sky-800 px-6 py-2 text-white transition-transform hover:scale-105 hover:cursor-pointer'
             disabled={isSearching || !searchQuery.trim()}
           >
             {isSearching ? (
@@ -320,7 +320,7 @@ export default function FantasyMatchupTracker() {
                     <PlayerCard player={player} darkMode={darkMode} />
                     <Button
                       onClick={() => addToWatched(player)}
-                      className='absolute -top-2 -right-2 z-10 h-8 w-8 rounded-full p-0 hover:cursor-pointer'
+                      className='absolute -top-2 -right-2 z-10 h-8 w-8 rounded-full bg-sky-800 p-0 text-white hover:cursor-pointer'
                       disabled={
                         watchedPlayers.find((p) => p.id === player.id) !==
                         undefined
@@ -382,7 +382,7 @@ export default function FantasyMatchupTracker() {
                       <PlayerCard player={player} darkMode={darkMode} />
                       <Button
                         onClick={() => removeFromWatched(player.id)}
-                        className='absolute -top-2 -right-2 z-10 h-8 w-8 rounded-full bg-red-500 p-0 hover:cursor-pointer hover:bg-red-600'
+                        className='absolute -top-2 -right-2 z-10 h-8 w-8 rounded-full bg-red-500 p-0 text-white hover:cursor-pointer hover:bg-red-600'
                       >
                         ×
                       </Button>

@@ -10,7 +10,7 @@ export function Switch({
   return (
     <button
       onClick={() => onCheckedChange(!checked)}
-      className={`relative h-6 w-12 rounded-full transition-colors ${
+      className={`relative h-6 w-12 cursor-pointer rounded-full transition-colors ${
         checked ? 'bg-blue-600' : 'bg-gray-400'
       }`}
     >
