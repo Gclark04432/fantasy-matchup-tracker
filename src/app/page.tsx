@@ -9,8 +9,9 @@ import { PlayerCard } from '@/app/components/ui/PlayerCard';
 import { Player } from '@/app/types/Player';
 import { searchPlayers, getPlayersByIds } from '@/app/lib/playerSearch';
 import { WatchedPlayersService } from '@/app/lib/watchedPlayersService';
+import { ScoreSimulator } from '@/app/lib/scoreSimulator';
 import { createClient } from '@/app/lib/supabase/client';
-import { Loader2, Search, Eye, User, LogOut } from 'lucide-react';
+import { Loader2, Search, Eye, User, LogOut, Play, Pause } from 'lucide-react';
 
 export default function FantasyMatchupTracker() {
   const [watchedPlayers, setWatchedPlayers] = useState<Player[]>([]);
@@ -22,6 +23,8 @@ export default function FantasyMatchupTracker() {
   const [userEmail, setUserEmail] = useState<string>('');
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [isSaving, setIsSaving] = useState<boolean>(false);
+  const [isSimulationRunning, setIsSimulationRunning] =
+    useState<boolean>(false);
 
   // Initialize Supabase and load user data
   useEffect(() => {
@@ -154,6 +157,51 @@ export default function FantasyMatchupTracker() {
     }
   };
 
+  // Handle score updates from simulator
+  const handleScoreUpdate = (playerId: number, newPoints: number) => {
+    // Update watched players
+    setWatchedPlayers((prev) =>
+      prev.map((player) =>
+        player.id === playerId
+          ? {
+              ...player,
+              seasonStats: { ...player.seasonStats, points: newPoints },
+            }
+          : player,
+      ),
+    );
+
+    // Update search results if the player is in them
+    setSearchResults((prev) =>
+      prev.map((player) =>
+        player.id === playerId
+          ? {
+              ...player,
+              seasonStats: { ...player.seasonStats, points: newPoints },
+            }
+          : player,
+      ),
+    );
+  };
+
+  // Toggle score simulation
+  const toggleSimulation = () => {
+    if (isSimulationRunning) {
+      ScoreSimulator.stopSimulation();
+      setIsSimulationRunning(false);
+    } else {
+      ScoreSimulator.startSimulation(handleScoreUpdate);
+      setIsSimulationRunning(true);
+    }
+  };
+
+  // Cleanup simulation on unmount
+  useEffect(() => {
+    return () => {
+      ScoreSimulator.stopSimulation();
+    };
+  }, []);
+
   if (isLoading) {
     return (
       <div className='flex min-h-screen items-center justify-center'>
@@ -168,29 +216,58 @@ export default function FantasyMatchupTracker() {
     >
       {/* Header */}
       <header className='mx-auto mb-10 max-w-6xl'>
-        <div className='flex items-center justify-between'>
-          <h1 className='text-center text-3xl font-bold sm:text-left sm:text-4xl'>
+        <div className='flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between'>
+          <h1 className='text-center text-2xl font-bold sm:text-left sm:text-4xl'>
             Fantasy Matchup Tracker
           </h1>
-          <div className='flex items-center gap-4'>
+
+          <div className='flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-4'>
             {user ? (
-              <div className='flex items-center gap-2'>
-                <User className='h-4 w-4' />
-                <span className='text-sm'>{userEmail}</span>
+              <div className='flex flex-col items-center gap-2 sm:flex-row sm:gap-2'>
+                <div className='flex items-center gap-1'>
+                  <User className='h-4 w-4' />
+                  <span className='max-w-[150px] truncate text-sm'>
+                    {userEmail}
+                  </span>
+                </div>
                 <Button
                   onClick={handleSignOut}
-                  className='flex items-center gap-1'
+                  className='flex items-center gap-1 px-3 py-2 text-sm'
                 >
                   <LogOut className='h-3 w-3' />
-                  Sign Out
+                  <span className='hidden sm:inline'>Sign Out</span>
                 </Button>
               </div>
             ) : (
-              <span className='text-sm text-gray-500'>Not signed in</span>
+              <span className='text-center text-sm text-gray-500 sm:text-left'>
+                Not signed in
+              </span>
             )}
-            <div className='flex items-center gap-2'>
-              <span>Dark Mode</span>
-              <Switch checked={darkMode} onCheckedChange={setDarkMode} />
+
+            <div className='flex flex-col items-center gap-3 sm:flex-row sm:gap-2'>
+              <Button
+                onClick={toggleSimulation}
+                className={`flex items-center gap-1 px-3 py-2 text-sm ${isSimulationRunning ? 'bg-green-500 hover:bg-green-600' : 'bg-gray-500 hover:bg-gray-600'}`}
+              >
+                {isSimulationRunning ? (
+                  <>
+                    <Pause className='h-3 w-3' />
+                    <span className='hidden sm:inline'>Stop Live Updates</span>
+                    <span className='sm:hidden'>Stop</span>
+                  </>
+                ) : (
+                  <>
+                    <Play className='h-3 w-3' />
+                    <span className='hidden sm:inline'>Start Live Updates</span>
+                    <span className='sm:hidden'>Start</span>
+                  </>
+                )}
+              </Button>
+
+              <div className='flex items-center gap-2'>
+                <span className='text-sm'>Dark Mode</span>
+                <Switch checked={darkMode} onCheckedChange={setDarkMode} />
+              </div>
             </div>
           </div>
         </div>
@@ -208,7 +285,7 @@ export default function FantasyMatchupTracker() {
           />
           <Button
             onClick={handleSearch}
-            className='transition-transform hover:scale-105'
+            className='px-6 py-2 transition-transform hover:scale-105'
             disabled={isSearching || !searchQuery.trim()}
           >
             {isSearching ? (
